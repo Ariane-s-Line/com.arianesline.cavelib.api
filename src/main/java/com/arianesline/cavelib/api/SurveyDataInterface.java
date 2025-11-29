@@ -48,6 +48,8 @@ public interface SurveyDataInterface {
 
     Boolean isLocked();
 
+    String getUuid();
+
     Boolean isExcluded();
 
     ProfileShapeInterface getShape();
