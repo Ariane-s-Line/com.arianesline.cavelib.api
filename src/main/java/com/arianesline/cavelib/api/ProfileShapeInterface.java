@@ -1,17 +1,16 @@
 package com.arianesline.cavelib.api;
 
-
 import java.util.ArrayList;
 
 public interface ProfileShapeInterface {
 
-    boolean isHasProfileAzimut();
+  boolean isHasProfileAzimut();
 
-    boolean isHasProfileTilt();
+  boolean isHasProfileTilt();
 
-    double getProfileAzimut();
+  double getProfileAzimut();
 
-    double getProfileTilt();
+  double getProfileTilt();
 
-    ArrayList<RadiusVectorInterface> getRadiusCollectionInterface();
+  ArrayList<RadiusVectorInterface> getRadiusCollectionInterface();
 }

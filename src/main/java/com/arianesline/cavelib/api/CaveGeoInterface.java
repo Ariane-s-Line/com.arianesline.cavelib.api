@@ -4,5 +4,5 @@ import java.util.List;
 
 public interface CaveGeoInterface {
 
-    List<StationInterface> getGeoCoordinateList();
+  List<StationInterface> getGeoCoordinateList();
 }

@@ -2,55 +2,55 @@ package com.arianesline.cavelib.api;
 
 public interface SurveyDataInterface {
 
-    int getID();
+  int getID();
 
-    int getFromID();
+  int getFromID();
 
-    int getClosureToID();
+  int getClosureToID();
 
-    String getName();
+  String getName();
 
-    String getSection();
+  String getSection();
 
-    String getType();
+  String getType();
 
-    String getExplorer();
+  String getExplorer();
 
-    String getColor();
+  String getColor();
 
-    String getProfileType();
+  String getProfileType();
 
-    String getDate();
+  String getDate();
 
-    double getLength();
+  double getLength();
 
-    double getAzimut();
+  double getAzimut();
 
-    double getInclination();
+  double getInclination();
 
-    double getDepth();
+  double getDepth();
 
-    double getDepthIn();
+  double getDepthIn();
 
-    double getDown();
+  double getDown();
 
-    double getUp();
+  double getUp();
 
-    double getRight();
+  double getRight();
 
-    double getLeft();
+  double getLeft();
 
-    double getLongitude();
+  double getLongitude();
 
-    double getLatitude();
+  double getLatitude();
 
-    String getComment();
+  String getComment();
 
-    Boolean isLocked();
+  Boolean isLocked();
 
-    String getUuid();
+  String getUuid();
 
-    Boolean isExcluded();
+  Boolean isExcluded();
 
-    ProfileShapeInterface getShape();
+  ProfileShapeInterface getShape();
 }

@@ -2,14 +2,11 @@ package com.arianesline.cavelib.api;
 
 public interface RadiusVectorInterface {
 
-    double getTensionProfile();
+  double getTensionProfile();
 
+  double getTensionCorridor();
 
-    double getTensionCorridor();
+  double getAngle();
 
-
-    double getAngle();
-
-
-    double getLength();
+  double getLength();
 }

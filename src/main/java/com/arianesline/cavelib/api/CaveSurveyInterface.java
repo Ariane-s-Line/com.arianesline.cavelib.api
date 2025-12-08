@@ -1,41 +1,54 @@
 package com.arianesline.cavelib.api;
 
-import javafx.scene.paint.Color;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
+import javafx.scene.paint.Color;
 
 public interface CaveSurveyInterface {
 
-    String getExtraData();
+  String getExtraData();
 
-    void setExtraData(String data);
+  void setExtraData(String data);
 
-    ArrayList<SurveyDataInterface> getSurveyDataInterface();
+  ArrayList<SurveyDataInterface> getSurveyDataInterface();
 
-    String getDescription();
+  String getDescription();
 
-    String getGeoCoding();
+  String getGeoCoding();
 
-    String getCaveName();
+  String getCaveName();
 
-    default void setCaveName(String name) {
-    }
+  default void setCaveName(String name) {}
 
-    String getUnit();
+  String getUnit();
 
-    void setUnit(String unit);
+  void setUnit(String unit);
 
-    Boolean getUseMagneticAzimuth();
+  Boolean getUseMagneticAzimuth();
 
-    default void setUseMagneticAzimuth(Boolean mode) {
-    }
+  default void setUseMagneticAzimuth(Boolean mode) {}
+  ;
 
-    ;
-
-    public int addStation(String sectionname, String explorer, LocalDate datetime, String nomstation,
-                          double direction, double length, double depthin, double depth, int fromid, int toid, String type, Color color,
-                          double longitude, double latitude,
-                          double up, double down, double left, double right, String comment, String profiletype, boolean islocked);
-
+  public int addStation(
+      String sectionname,
+      String explorer,
+      LocalDate datetime,
+      String nomstation,
+      double direction,
+      double length,
+      double depthin,
+      double depth,
+      int fromid,
+      int toid,
+      String type,
+      Color color,
+      double longitude,
+      double latitude,
+      double up,
+      double down,
+      double left,
+      double right,
+      String comment,
+      String profiletype,
+      boolean islocked);
 }

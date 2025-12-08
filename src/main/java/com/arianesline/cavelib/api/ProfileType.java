@@ -14,23 +14,15 @@ package com.arianesline.cavelib.api;
  */
 public enum ProfileType {
 
-    /**
-     * The vertical.
-     */
-    VERTICAL,
+  /** The vertical. */
+  VERTICAL,
 
-    /**
-     * The horizontal.
-     */
-    HORIZONTAL,
+  /** The horizontal. */
+  HORIZONTAL,
 
-    /**
-     * The perpendicular.
-     */
-    PERPENDICULAR,
+  /** The perpendicular. */
+  PERPENDICULAR,
 
-    /**
-     * The bisection.
-     */
-    BISECTION
+  /** The bisection. */
+  BISECTION
 }

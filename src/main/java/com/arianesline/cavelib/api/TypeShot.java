@@ -14,23 +14,15 @@ package com.arianesline.cavelib.api;
  */
 public enum TypeShot {
 
-    /**
-     * The real.
-     */
-    REAL,
+  /** The real. */
+  REAL,
 
-    /**
-     * The virtual.
-     */
-    VIRTUAL,
+  /** The virtual. */
+  VIRTUAL,
 
-    /**
-     * The closure.
-     */
-    CLOSURE,
+  /** The closure. */
+  CLOSURE,
 
-    /**
-     * The start.
-     */
-    START
+  /** The start. */
+  START
 }

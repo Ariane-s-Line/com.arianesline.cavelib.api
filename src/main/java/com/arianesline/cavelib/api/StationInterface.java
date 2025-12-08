@@ -1,17 +1,17 @@
 package com.arianesline.cavelib.api;
 
 public interface StationInterface {
-    double getLongitude();
+  double getLongitude();
 
-    double getLatitude();
+  double getLatitude();
 
-    double getAbsoluteElevation();
+  double getAbsoluteElevation();
 
-    double getRelativeElevation();
+  double getRelativeElevation();
 
-    int getID();
+  int getID();
 
-    String getSection();
+  String getSection();
 
-    String getComment();
+  String getComment();
 }
