@@ -9,6 +9,10 @@ public interface StationInterface {
 
   double getRelativeElevation();
 
+  double getLocalX();
+
+  double getLocalY();
+
   int getID();
 
   String getSection();
